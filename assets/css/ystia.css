@@ -22,3 +22,8 @@
 .icon-ystia {
   vertical-align: middle;
 }
+
+.content-ystia {
+  max-width: none !important;
+  padding: 0rem !important;
+}
