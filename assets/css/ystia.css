@@ -23,6 +23,11 @@
   vertical-align: middle;
 }
 
+.icon-ystia-small {
+  width: 150px;
+  height: 92px;
+}
+
 .content-ystia {
   max-width: none !important;
   padding: 0rem !important;
