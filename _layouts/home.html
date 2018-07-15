@@ -16,16 +16,17 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ site.github.yorc.repository_url }}" class="btn-ystia">Orchestrator</a>
       <a href="{{ site.github.forge.repository_url }}" class="btn-ystia">Forge</a>
-      <a href="{{ site.github.yorc.repository_url }}" class="btn-ystia">Blog</a>
+      <a href="/blog/" class="btn-ystia">Blog</a>
     </header>
 
     <main id="content" class="main-content content-ystia" role="main">
       {{ content }}
 
       <footer class="site-footer text-center">
+        <span class="site-footer-credits pr-4"><a href="/">Ystia Suite</a></span>
         <span class="site-footer-credits pr-4"><a href="{{ site.github.yorc.repository_url }}">Orchestrator</a></span>
         <span class="site-footer-credits pr-4"><a href="{{ site.github.forge.repository_url }}">Forge</a></span>
-        <span class="site-footer-credits"><a href="{{ site.github.yorc.repository_url }}">Blog</a></span>
+        <span class="site-footer-credits"><a href="/blog/">Blog</a></span>
       </footer>
     </main>
 
